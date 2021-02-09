@@ -12,3 +12,9 @@ print(s)
 # 通过remove(key) 方法可以删除元素
 s.remove(2)
 print(s)
+
+# set 可以堪称数学意义上的无序和无重复元素的集合，因此，两个set 可以做数学意义上的交集，并集等操作。
+s1 = set([1,2,3])
+s2 = set([2,3,4])
+print(s1 & s2)
+print(s1 | s2)
